@@ -1,0 +1,161 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*HEADER*/
+
+#header-container,
+#info-container  {
+	background-color: #99c84a;
+	color: white;
+}
+
+#header-container .login,
+#header-container .navbar-toggler {
+
+	color: white;
+}
+/*/HEADER*/
+
+/*MENU*/
+
+#menu-container {
+	background-color: #f7f7f9;
+
+}
+
+.btn.btn-platzi {
+	background-color: #99c84a;
+	color: white;
+}
+
+.btn.btn-platzi:hover {
+	background-color: #8ab542;
+	color: white;
+}
+
+input.form-control:focus {
+	border-color:#99c84a;
+}
+
+.search-bar {
+	padding: 1em;
+}
+
+/*MENU*/
+
+/*CAROUSEL*/
+
+#productosCarousel img {
+	margin: 0 auto;
+	
+
+}
+
+/*/CAROUSEL*/
+
+/*INFO*/
+
+#info-container h4 {
+	margin: 1em 0;
+}
+
+#info-container img {
+	margin: 0 auto;
+	margin-top: 2em;
+}
+
+/*INFO*/
+
+
+/*FOOTER*/
+
+#footer-container {
+	background-color: #1c3643;
+	color:white;
+	padding:3em 0;
+}
+
+#footer-container h4{
+	font-size: 16px;
+}
+
+#footer-container .nav-link {
+	color:white;
+}
+
+@media (max-width: 768px) {
+	#footer-container [class*="col-"] {
+	margin-bottom: 2em;
+  }
+}
+
+/*/FOOTER*/
+
+
+/*BREADCRUMS*/
+
+#breadcrumbs-container .breadcrumb {
+	background-color: white;
+	padding-left: 0;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item {
+	color: #1c3643;
+}
+
+
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item.active {
+	color: #95a5a6;
+}
+
+#breadcrumbs-container .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+	content: ">";
+}
+
+/*/BREADCRUMS*/
+
+/*FILTROS*/
+
+#productos-container {
+	margin-bottom: 2em;
+}
+
+#productos-container .list-group-item-action.active {
+background-color: #99c84a;
+border-color: #99c84a;
+}
+
+#productos-container .list-group+.list-group {
+	margin-top: 1em;
+}
+
+
+
+/*/FILTROS*/
+
+/*PRODUCTOS*/
+
+@media (max-width: 768px) {
+
+  .listado-productos {
+  	margin-top: 2em;
+  }
+
+  .listado-productos .card-img-top {
+  	width: 100%;
+  }
+}
+
+#paginator-container .page-item:not(.active):not(.disable) .page-link {
+	color:#99c84a;
+}
+
+#paginator-container .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+	background-color: #99c84a;
+	border-color: #99c84a;
+	
+}
+
+/*/PRODUCTOS*/
